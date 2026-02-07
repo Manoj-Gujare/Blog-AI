@@ -1,0 +1,16 @@
+[project]
+name = "blog-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=1.61.0",
+    "ipykernel>=7.1.0",
+    "langchain>=1.2.7",
+    "langchain-aws>=1.2.2",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.7",
+    "langgraph>=1.0.7",
+    "pydantic>=2.12.5",
+]
